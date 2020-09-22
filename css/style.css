@@ -86,8 +86,18 @@ a:link {
     margin: auto;
 }
 
+.col.col1 img {
+    height: 25px;
+    vertical-align: middle;
+}
+
 .col.col1 a {
     color: lightgreen;
+}
+
+.col.col1 h3 {
+    display: inline-block;
+    font-size: 18px;
 }
 
 .col.col2 {
@@ -120,20 +130,24 @@ a:link {
 
 .footer-box {
     width: 100%;
-    height: 110px;
+    height: 120px;
     border-radius: 6px;
     background-color: white;
 }
 
-.footer-text {
+.footer-top {
     color: lightgrey;
     text-align: center;
     font-style: italic;
 }
 
-.footer-box img {
+.footer-bottom {
+    line-height: 120px;
+    text-align: center;
+}
+
+.footer-bottom img {
     width: 30px;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
